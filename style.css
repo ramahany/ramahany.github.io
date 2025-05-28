@@ -840,3 +840,11 @@
                
             }
         }
+          @media screen and (max-width:900px) {
+           .project-card{
+            transform: scale(0.95);
+           } 
+           .projects-container{
+            padding: 0px;
+           }
+        }
