@@ -11,9 +11,27 @@
 <body>
     <div class="stars"></div>
 
+    <header class="site-header" role="banner">
+        <nav class="site-nav" aria-label="Primary">
+            <a href="#home" class="brand" aria-label="Go to home">𝓻4𝓶4</a>
+            <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="home" role="main">
+
     <section class="hero">
         <div class="hero-left">
-            <img src="./imgs/ava.png" alt="Avatar">
+            <img src="./imgs/ava.png" alt="Rama avatar">
         </div>
         <div class="hero-right">
             <div class="social-links">
@@ -31,34 +49,147 @@
                 </a>
             </div>
             <div class="hero-content">
-                <h1>Hi, I'm Rama.<br>I build smart stuff & make it fun! ✨</h1>
-                <button class="button-glow" onclick="window.location.href='#projects'">Explore My World 🚀</button>
+                <h1>Hi, I'm Rama — AI Engineer & Teaching Assistant ✨</h1>
+                <p class="hero-sub">I design AI-driven solutions, teach with empathy, and build delightful tools.</p>
+                <button class="button-glow" onclick="window.location.href='#projects'">Explore Projects 🚀</button>
             </div>
         </div>
     </section>
 
     <section class="section" id="about">
         <h2>About Me 💫</h2>
-        <div class="about-bubbles">
-            <div class="bubble">🤖 AI Enthusiast</div>
+        <div class="about-bubbles" >
+            <div class="bubble" >🤖 AI & Machine Learning</div>
             <div class="bubble">👩🏻‍💻 Teaching Assistant</div>
-            <div class="bubble">📚 Always Learning</div>
-            <div class="bubble">✨ Creative Coder</div>
+            <div class="bubble">📚 Lifelong Learner</div>
+            <div class="bubble">✨ Creative Engineer</div>
 
         </div>
         <div class="timeline">
 
-            <div class="timeline-entry">🤖  <b>Building AI Projects</b></div>
-            <div class="timeline-entry">🤝  <b>Guiding Students</b></div>
-            <div class="timeline-entry">🌱 <b>Learning New Tech</b></div>
-            <div class="timeline-entry">🎨  <b>Creating Cool Stuff</b></div>
+            <div class="timeline-entry">
+                <p> <b>Dynamic AI/ML Engineer with expertise in Python, TensorFlow, Keras, computer vision, and NLP. Proven ability to design, train, and deploy high-performance machine learning models with measurable business impact. Experienced in developing real-time applications, automating workflows, and delivering production-ready solutions. Skilled in mentoring and teaching large student cohorts in advanced computing topics.</b></p>
+            </div>
+        </div>
 
+    </section>
+
+    <!-- Education -->
+    <section class="section" id="education">
+        <h2>Education 🎓</h2>
+        <div class="education-grid">
+            <div class="education-card">
+                <p><b>Bachelor of Computer Engineering — GPA: 3.6</b><br>Arab Academy for Science and Technology</p>
+            </div>
         </div>
     </section>
 
+    <!-- Skills -->
+    <div class="skills-container">
+        <section class="section" id="skills">
+            <h2>My Tech Toolbox 🛠️</h2>
+            <div class="inventory">
+                <div class="inventory-category">
+                    <h3>🤖 AI, ML & Computer Vision</h3>
+                    <ul>
+                        <li>✨ <b>TensorFlow, pytorch, kares, Scikit-learn</b></li>
+                        <li>📊 <b>NumPy, Pandas, Visualization, Matplot, Analysis</b></li>
+                        <li>👁️ <b>Mediapipe, Pose Estimation, Feature Extraction</b></li>
+                        <li>🧠 <b>LLMs, CNNs, Deep Learning, NLP, Prompt Engineering</b></li>
+                        <li>🛰️ <b>Hugging Face, OpenCV, CUDA</b></li>
+                    </ul>
+                </div>
+                <div class="inventory-category">
+                    <h3>👩‍💻 Software Development</h3>
+                    <ul>
+                        <li>💻 <b>Python, Java, C++, C#</b></li>
+                        <li>🧱  <b>Streamlit, ttkbootstrap, Tkinter, pygame</b></li>
+                        <li>🤖  <b>Agents, LangChain, Custom Python Scripts, Task Automation</b></li>
+                        <li>🔌  <b>SQL, Firestore, Google APIs</b></li>
+                        <li>🛠️  <b>Git/GitHub, OOP, Debugging, SDLC</b></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="soft-skills">
+            <h2>Soft Skills 🌱</h2>
+            <div class="soft-grid">
+                <div class="soft-card"><h3>Communication & Collaboration</h3></div>
+                <div class="soft-card"><h3>Mentorship & Teaching</h3></div>
+                <div class="soft-card"><h3>Problem-Solving Mindset</h3></div>
+                <div class="soft-card"><h3>Creativity & Innovation</h3></div>
+                <div class="soft-card"><h3>Continuous Learning</h3></div>
+                <div class="soft-card"><h3>Leadership in Group Settings</h3></div>
+                <div class="soft-card"><h3>Time Management & Organization</h3></div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Work Experience -->
+    <section class="section" id="work-experience" style="width: 100%;">
+        <h2>Work Experience 💼</h2>
+        <div class="experience-grid">
+            <div class="experience-card">
+                <h3>Teaching Assistant, Arab Academy for Science and Technology (2023 – Present)</h3>
+                <p>Facilitated collaborative learning for 120–180 students per semester, utilizing interactive tools to enhance engagement and participation while providing mentorship and academic support.</p>
+                <p>Incorporated additional educational materials, including LeetCode problems and extra projects, leading to improved problem-solving skills.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Offered Services -->
+    <section class="section" id="services">
+        <h2>Offered Services 🛠️</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">🤖</div>
+                <h3>Custom AI Solutions</h3>
+                <p>Tailored machine learning models for business.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">👁️</div>
+                <h3>Computer Vision Applications</h3>
+                <p>Pose detection, object tracking, defect analysis.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🗣️</div>
+                <h3>Natural Language Processing</h3>
+                <p>Chatbots, summarization, sentiment analysis tools.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">⚙️</div>
+                <h3>Automation & Workflow Optimization</h3>
+                <p>Scripts and bots to reduce manual effort.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">📊</div>
+                <h3>Data Analysis & Visualization</h3>
+                <p>Extract insights, build dashboards, improve decisions.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🎓</div>
+                <h3>AI Tutoring & Mentorship</h3>
+                <p>Guiding students in AI and coding.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🚀</div>
+                <h3>Model Deployment & MLOps</h3>
+                <p>Deploy scalable AI apps to production.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🌐</div>
+                <h3>Web & Streamlit Apps</h3>
+                <p>Interactive AI-powered web applications.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
     <section class="section" id="projects">
-        <h2>Fun Projects 🎯</h2>
-        <div class="projects-container">
+        <h2>Projects 🎯</h2>
+        <h3 class="section-sub">AI Projects</h3>
+        <div class="projects-container" aria-label="AI Projects Carousel">
             <button class="scroll-button scroll-left">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="scroll-icon">
                     <path d="M15 18l-6-6 6-6"/>
@@ -66,10 +197,10 @@
             </button>
             <div class="projects">
                 <div class="project-card">
-                    <img src="./imgs/projects/linkScrip.gif" alt="AI Project" class="card-img">
+                    <img src="./imgs/projects/linkScrip.gif" alt="linkScrip app demo" class="card-img">
                     <div class="card-content">
                         <h3>✨ linkScrip</h3>
-                        <p>AI-Powered Link Summarizer!</p>
+                        <p><b>Problem:</b> Long articles waste time. <br><b>Result:</b> One-click LLM summaries.</p>
                         <div class="tech-tags">
                             <span class="tech-tag">🤖 LLM</span>
                             <span class="tech-tag">🧠 Tkinter/ttk</span>
@@ -82,10 +213,10 @@
                     </div>
                 </div>
                 <div class="project-card">
-                    <img src="./imgs/projects/codeAnalysis.gif" alt="AI Project" class="card-img">
+                    <img src="./imgs/projects/codeAnalysis.gif" alt="Code complexity analyzer demo" class="card-img">
                     <div class="card-content">
                         <h3>✨ Code Complexity Analyzer</h3>
-                        <p>Analysis On Your Code And Plots The BigO!</p>
+                        <p><b>Problem:</b> Complexity is opaque. <br><b>Result:</b> Visual Big-O insights on code.</p>
                         <div class="tech-tags">
                             <span class="tech-tag">🤖 LLM</span>
                             <span class="tech-tag">🧠 Prompting</span>
@@ -99,10 +230,10 @@
                     </div>
                 </div>
                 <div class="project-card">
-                    <img src="./imgs/projects/gym.gif" alt="AI Project" class="card-img">
+                    <img src="./imgs/projects/gym.gif" alt="Gym pose evaluation demo" class="card-img">
                     <div class="card-content">
                         <h3>✨ Evaluate Gymnastic poses</h3>
-                        <p>Evaluate Gymnastic poses!</p>
+                        <p><b>Problem:</b> Form feedback is manual. <br><b>Result:</b> Real-time pose evaluation.</p>
                         <div class="tech-tags">
                             <span class="tech-tag">👁️ Computer Vision</span>
                             <span class="tech-tag">🧠 Mediapipe</span>
@@ -115,10 +246,10 @@
                     </div>
                 </div>
                 <div class="project-card">
-                    <img src="./imgs/projects/surface.gif" alt="AI Project" class="card-img">
+                    <img src="./imgs/projects/surface.gif" alt="Surface crack detection demo" class="card-img">
                     <div class="card-content">
                         <h3>✨ Surface Crack Detecion</h3>
-                        <p>Feature Extraction For Crack Detecion!</p>
+                        <p><b>Problem:</b> Defect inspection is slow. <br> <b>Result:</b> Automated crack detection.</p>
                         <div class="tech-tags">
                             <span class="tech-tag">🤖 Neural Networks</span>
                             <span class="tech-tag">🧠 Scikit-learn </span>
@@ -132,10 +263,10 @@
                     </div>
                 </div>
                 <div class="project-card">
-                    <img src="./imgs/projects/LR.gif" alt="AI Project" class="card-img">
+                    <img src="./imgs/projects/LR.gif" alt="Linear regression visualization demo" class="card-img">
                     <div class="card-content">
                         <h3>✨ LR Visualization</h3>
-                        <p>Made LinearRegression Easier To Understad!</p>
+                        <p><b>Problem:</b> LR is abstract for learners. <br><b>Result:</b> Interactive visual intuition.</p>
                         <div class="tech-tags">
                             <span class="tech-tag">🧠 LinearRegression</span>
                             <span class="tech-tag">📊 Matplot</span>
@@ -148,11 +279,29 @@
                         </div>
                     </div>
                 </div>
+
+
+            </div>
+            <button class="scroll-button scroll-right">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="scroll-icon">
+                    <path d="M9 18l6-6-6-6"/>
+                </svg>
+            </button>
+        </div>
+
+        <h3 class="section-sub">Other Software Projects</h3>
+        <div class="projects-container" aria-label="Other Projects Carousel">
+            <button class="scroll-button scroll-left">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="scroll-icon">
+                    <path d="M15 18l-6-6 6-6"/>
+                </svg>
+            </button>
+            <div class="projects">
                 <div class="project-card">
-                    <img src="./imgs/projects/org.gif" alt="AI Project" class="card-img">
+                    <img src="./imgs/projects/org.gif" alt="Downloads organizer demo" class="card-img">
                     <div class="card-content">
                         <h3>✨ Download's Organiser</h3>
-                        <p>Organises the downloads folder!</p>
+                        <p><b>Problem:</b> Cluttered folders.<br> <b>Result:</b> Auto-sorted downloads by type.</p>
                         <div class="tech-tags">
                             <span class="tech-tag">🤖 Automation</span>
                             <span class="tech-tag">🧠 Problem Solving</span>
@@ -164,8 +313,6 @@
                         </div>
                     </div>
                 </div>
-
-
             </div>
             <button class="scroll-button scroll-right">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="scroll-icon">
@@ -175,34 +322,21 @@
         </div>
     </section>
 
-    <section class="section" id="skills">
-        <h2>My Tech Toolbox 🛠️</h2>
-        <div class="inventory">
-            <div class="inventory-category">
-                <h3>🤖 AI, ML & Computer Vision</h3>
-                <ul>
-                    <li>✨ <b>TensorFlow, pytorch, kares, Scikit-learn</b></li>
-                    <li>📊 <b>NumPy, Pandas, Visualization, Matplot, Analysis</b></li>
-                    <li>👁️ <b>Mediapipe, Pose Estimation, Feature Extraction</b></li>
-                    <li>🧠 <b>LLMs, CNNs, Deep Learning, NLP, Prompt Engineering</b></li>
-                    <li>🛰️ <b>Hugging Face, OpenCV, CUDA</b></li>
-                </ul>
-            </div>
-            <div class="inventory-category">
-                <h3>👩‍💻 Software Development</h3>
-                <ul>
-                    <li>💻 <b>Python, Java, C++, C#</b></li>
-                    <li>🧱  <b>Streamlit, ttkbootstrap, Tkinter, pygame</b></li>
-                    <li>🤖  <b>Agents, LangChain, Custom Python Scripts, Task Automation</b></li>
-                    <li>🔌  <b>SQL, Firestore, Google APIs</b></li>
-                    <li>🛠️  <b>Git/GitHub, OOP, Debugging, SDLC</b></li>
-                </ul>
-            </div>
-        </div>
+    
+
+    <section class="section" id="blog">
+        <h2>Publications & Blog ✍️</h2>
+        <p class="section-intro">Coming soon: technical write-ups on AI projects, research notes, and best practices.</p>
     </section>
 
+
+
+
+
+
+
     <section class="section" id="contact">
-        <h2>Send Me a Message 💌</h2>
+        <h2>Let’s Collaborate on AI Projects 💌</h2>
         <div class="contact-form">
             <form action="https://formsubmit.co/ramahany666@gmail.com" method="POST">
                 <!-- Honeypot -->
@@ -223,10 +357,13 @@
                 <!-- Subject -->
                 <input type="hidden" name="_subject" value="New Contact Form Message!">
                 
-                <input type="text" name="name" placeholder="Your Name ✨" required>
-                <input type="email" name="email" placeholder="Your Email 📧" required>
-                <textarea name="message" rows="4" placeholder="Your Message 💭" required></textarea>
-                <button type="submit">Send Message 🌟</button>
+                <label for="name">Name</label>
+                <input id="name" type="text" name="name" placeholder="Your Name ✨" required aria-required="true">
+                <label for="email">Email</label>
+                <input id="email" type="email" name="email" placeholder="Your Email 📧" required aria-required="true">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" placeholder="Your Message 💭" required aria-required="true"></textarea>
+                <button type="submit" aria-label="Send message">Send Message 🌟</button>
             </form>
         </div>
     </section>
@@ -249,7 +386,14 @@
         </svg>
     </button>
 
-    <footer class="footer">
+    </main>
+
+    <footer class="footer" role="contentinfo">
+        <nav class="footer-nav" aria-label="Footer">
+            <a href="#home">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
         <p>© 2025 Rama. All rights reserved.</p>
     </footer>
 
@@ -272,41 +416,42 @@
         }
 
         function setupProjectScroll() {
-            const projectsContainer = document.querySelector('.projects');
-            const leftButton = document.querySelector('.scroll-left');
-            const rightButton = document.querySelector('.scroll-right');
+            const containers = document.querySelectorAll('.projects-container');
             const scrollAmount = 420; // card width + gap
+            containers.forEach(container => {
+                const projectsContainer = container.querySelector('.projects');
+                const leftButton = container.querySelector('.scroll-left');
+                const rightButton = container.querySelector('.scroll-right');
 
-            if (leftButton && rightButton) {
-                leftButton.addEventListener('click', () => {
-                    projectsContainer.scrollBy({
-                        left: -scrollAmount,
-                        behavior: 'smooth'
+                if (leftButton && rightButton && projectsContainer) {
+                    leftButton.addEventListener('click', () => {
+                        projectsContainer.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
                     });
-                });
-
-                rightButton.addEventListener('click', () => {
-                    projectsContainer.scrollBy({
-                        left: scrollAmount,
-                        behavior: 'smooth'
+                    rightButton.addEventListener('click', () => {
+                        projectsContainer.scrollBy({ left: scrollAmount, behavior: 'smooth' });
                     });
-                });
 
-                // Show/hide buttons based on scroll position
-                const updateButtonVisibility = () => {
-                    leftButton.style.opacity = projectsContainer.scrollLeft > 0 ? '1' : '0';
-                    rightButton.style.opacity = 
-                        projectsContainer.scrollLeft < (projectsContainer.scrollWidth - projectsContainer.clientWidth - 10)
-                        ? '1' : '0';
-                };
-
-                // Update button visibility on scroll
-                projectsContainer.addEventListener('scroll', updateButtonVisibility);
-
-                // Initial button visibility
-                updateButtonVisibility();
-            }
+                    const updateButtonVisibility = () => {
+                        leftButton.style.opacity = projectsContainer.scrollLeft > 0 ? '1' : '0';
+                        rightButton.style.opacity = projectsContainer.scrollLeft < (projectsContainer.scrollWidth - projectsContainer.clientWidth - 10) ? '1' : '0';
+                    };
+                    projectsContainer.addEventListener('scroll', updateButtonVisibility);
+                    updateButtonVisibility();
+                }
+            });
         }
+
+        // Simple mobile nav toggle
+        (function setupNav(){
+            const toggle = document.querySelector('.nav-toggle');
+            const links = document.querySelector('.nav-links');
+            if (!toggle || !links) return;
+            toggle.addEventListener('click', () => {
+                const expanded = toggle.getAttribute('aria-expanded') === 'true';
+                toggle.setAttribute('aria-expanded', String(!expanded));
+                links.classList.toggle('open');
+            });
+        })();
 
         function setupMusicPlayer() {
             const musicToggle = document.getElementById('musicToggle');
